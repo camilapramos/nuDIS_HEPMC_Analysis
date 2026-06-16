@@ -1,0 +1,13 @@
+import model sm
+generate e- p > ve j
+output nuDIS_charged
+
+launch nuDIS_charged
+shower=py8
+set ebeam1 1000
+set ebeam2 1
+set pdlabel2 lhapdf
+set lhaid 324900
+set no_parton_cut
+set nevents 10000
+done

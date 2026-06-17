@@ -10,4 +10,11 @@ set pdlabel2 lhapdf
 set lhaid 324900
 set no_parton_cut
 set nevents 10000
+set systematics_arguments --dyn=3
+set TimeShower:QEDshowerByL = on
+set TimeShower:QEDshowerByQ = on
+set SpaceShower:QEDshowerByL = on
+set SpaceShower:QEDshowerByQ = on
+set pythia8_card BeamRemnants:primordialKT on
+set pythia8_card Tune:pp 18
 done

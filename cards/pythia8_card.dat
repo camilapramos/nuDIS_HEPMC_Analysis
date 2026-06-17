@@ -40,7 +40,7 @@ HEPMCoutput:file         = hepmc.gz
 ! --------------------------------------------------------------------
 ! If equal to -1.0, MadGraph5_aMC@NLO will set it automatically based 
 ! on the parameter 'xqcut' of the run_card.dat 
-JetMatching:qCut         = -1.0
+JetMatching:qCut         = -1.0000000000e+00
 ! Use default kt-MLM to match parton level jets to those produced by the
 ! shower. But the other Shower-kt scheme is available too with this option.
 JetMatching:doShowerKt   = off
@@ -58,7 +58,7 @@ JetMatching:nJetMax      = -1
 ! Central merging scale values you want to be used.
 ! If equal to -1.0, then MadGraph5_aMC@NLO will set this automatically
 ! based on the parameter 'ktdurham' of the run_card.dat
-Merging:TMS              = -1.0
+Merging:TMS              = -1.0000000000e+00
 ! This must be set manually, according to Pythia8 directives.
 ! An example of possible value is 'pp>LEPTONS,NEUTRINOS'
 ! Alternatively, from Pythia v8.223 onwards, the value 'guess' can be 
@@ -85,3 +85,12 @@ SysCalc:fullCutVariation = off
 ! often irrelevant for phenomenology and very slow. You can turn this 
 ! feature off by uncommenting the line below if so desired.
 !partonlevel:mpi = off
+!
+! Additional general parameters.
+!
+BeamRemnants:primordialKT=on
+TimeShower:QEDshowerByQ=on
+TimeShower:QEDshowerByL=on
+SpaceShower:QEDshowerByQ=on
+SpaceShower:QEDshowerByL=on
+tune:pp=18

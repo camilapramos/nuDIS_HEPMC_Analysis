@@ -1,4 +1,5 @@
 - generate events again with 'TimeShower:QEDshowerByGamma = On ' (DONE)
+
 - plot average multiplicity:
 "It should be something like
 
@@ -6,4 +7,6 @@
 
 where n_PID^event is the number of PID="PID" in event="event" and the event weight wgt^event is normalized by
 
-xsec = sum_event wgt^event"
+xsec = sum_event wgt^event" (DONE?)
+
+- turn notebook into python script

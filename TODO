@@ -7,6 +7,26 @@
 
 where n_PID^event is the number of PID="PID" in event="event" and the event weight wgt^event is normalized by
 
-xsec = sum_event wgt^event" (DONE?)
+xsec = sum_event wgt^event" (DONE)
 
 - turn notebook into python script
+
+- include uncertainties on avg multiplicity plot (DONE)
+
+- make a function to obtain averaged observables (DONE)
+
+- repeat plots but selecting events with 0 and events with 1 proton in the final state
+
+- plot avg multiplicity of (n_pions+ + n_protons) and (n_pions+ - n_pions-)
+
+- investigate origin of protons and pions
+
+- plot average energy of photons for all events
+
+- plot average sum of energies of photons in each event
+
+- plot leading and subleading photon energies
+
+- obtain geometry of events (8 vector from Pythia) and compare it to FASER
+
+- convert pid to readable labels (DONE)

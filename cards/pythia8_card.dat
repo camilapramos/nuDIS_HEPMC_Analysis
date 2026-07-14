@@ -91,6 +91,7 @@ SysCalc:fullCutVariation = off
 BeamRemnants:primordialKT=on
 TimeShower:QEDshowerByQ=on
 TimeShower:QEDshowerByL=on
+TimeShower:QEDshowerByGamma=on
 SpaceShower:QEDshowerByQ=on
 SpaceShower:QEDshowerByL=on
 tune:pp=18

@@ -21,11 +21,11 @@ xsec = sum_event wgt^event" (DONE)
 
 - investigate origin of protons and pions
 
-- plot average energy of photons for all events
+- obtain average energy of photons for all events (DONE)
 
-- plot average sum of energies of photons in each event
+- obtain average sum of energies of photons in each event (DONE)
 
-- plot leading and subleading photon energies
+- plot leading and subleading photon energies (DONE???)
 
 - obtain geometry of events (8 vector from Pythia) and compare it to FASER
 

@@ -454,6 +454,7 @@ TimeShower:QEDshowerByL=on
 SpaceShower:QEDshowerByQ=on
 SpaceShower:QEDshowerByL=on
 tune:pp=18
+timeshower:qedshowerbygamma=on
 !
 ! Additional technical parameters set by MG5_aMC.
 !

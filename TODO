@@ -34,3 +34,5 @@ xsec = sum_event wgt^event" (DONE)
 - repeat plots but selecting events with 0 and events with 1 proton in the final state
 
 - turn notebook into python script
+
+- plot delta R distribution for leading/subleading photon and leading electron

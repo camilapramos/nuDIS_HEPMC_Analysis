@@ -15,7 +15,7 @@ set TimeShower:QEDshowerByL = on
 set TimeShower:QEDshowerByQ = on
 set SpaceShower:QEDshowerByL = on
 set SpaceShower:QEDshowerByQ = on
-set TimeShower:QEDshowerByGamma = on 
 set pythia8_card BeamRemnants:primordialKT on
 set pythia8_card Tune:pp 18
+set pythia8_card TimeShower:QEDshowerByGamma on 
 done

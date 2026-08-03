@@ -23,7 +23,7 @@ xsec = sum_event wgt^event" (DONE)
 
 - include ratios to show uncertainties (DONE)
 
-- obtain geometry for FASER
+- obtain geometry for FASER (DONE)
 
 - create selection criteria based on geometry
 
@@ -35,4 +35,6 @@ xsec = sum_event wgt^event" (DONE)
 
 - turn notebook into python script
 
-- plot delta R distribution for leading/subleading photon and leading electron
+- plot delta R distribution for leading/subleading photon and leading electron (DONE)
+
+- plot cos(theta) from the dot product between leading photon and leading electron (DONE)
